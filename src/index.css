@@ -1,3 +1,7 @@
+body {
+    background-color: #32272793;
+}
+
 .to-do-list {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -36,4 +40,39 @@ button{
 }
 .move-button:hover{
     background-color: #007bb5;
+}
+input[type="text"]{
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    color: #0000006d;
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    font-size: 2rem;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #666666;
+    margin-bottom: 10px;
+    border: 3px solid #0000006d;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+}
+
+.delete-button, .move-button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
 }
