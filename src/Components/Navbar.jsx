@@ -1,13 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
-function Navbar() {
+export default function Navbar() {
     return (
-        <nav>
-            <Link to ="/">Home</Link> |
-            <Link to ="/contact">Contacts</Link>
-        </nav>
-    );
+        
+            <nav className="nav">
+                <ul>
+                <CustomLink to ="/">Home</CustomLink> |
+                <CustomLink to ="/contact">Contacts</CustomLink>
+                </ul>
+            </nav>
+        
+    )
 }
 
-export default Navbar;
+function CustomLink({ to, children, ...props }) {
+    const path = window.location.pathname;
+   
+
+    return (
+        <li className={path === to ? "active" : ""}>
+            <Link to={to} {...props}>
+            {children}
+            </Link>
+        </li>
+    );
+}

@@ -1,0 +1,14 @@
+nav {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+nav ul {
+    color: inherit;
+}
