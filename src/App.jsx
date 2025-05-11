@@ -15,7 +15,7 @@ function App() {
        <Navbar />
        <Routes>
          <Route path="/" element={<ToDoList />} />
-         <Route path="./Pages/Contact.jsx" element={<Contact />} />
+         <Route path="/contact" element={<Contact />} />
        </Routes>
      </BrowserRouter>
   );

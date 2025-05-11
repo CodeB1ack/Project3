@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav>
             <Link to ="/">Home</Link> |
-            <Link to ="./Pages/Contact.jsx">Contacts</Link>
+            <Link to ="/contact">Contacts</Link>
         </nav>
     );
 }
