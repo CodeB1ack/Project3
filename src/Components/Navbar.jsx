@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <nav>
-            <Link>Home</Link>
-            <Link>Contacts</Link>
+            <Link to ="/">Home</Link> |
+            <Link to ="./Pages/Contact.jsx">Contacts</Link>
         </nav>
     );
 }
