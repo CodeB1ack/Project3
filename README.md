@@ -13,4 +13,4 @@ To use the list you just type in any thing that you need to do or get in a list 
 I used html, css, javascript, React
 
 For the future I would like make it look much better and have a sign in function.
-
+Would also like to add more pages.
