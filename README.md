@@ -1,12 +1,16 @@
-# React + Vite
+Patrick Ledford
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple to do list structured using react. It also features a form to submit your email and any comments the user may have.
 
-Currently, two official plugins are available:
+As a user I would like to make a simple list so that i can keep up with chores
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+As a user I would like to easily rearrange task in my list so that I can switch order of importance
 
-## Expanding the ESLint configuration
+As a user I would like a sign up form so that I can leave my email and name for registration and possible news updates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To use the list you just type in any thing that you need to do or get in a list format.
+
+I used html, css, javascript, React
+
+For the future I would like make it look much better and have a sign in function.
+

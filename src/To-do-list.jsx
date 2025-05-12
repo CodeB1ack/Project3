@@ -35,6 +35,8 @@ function ToDoList() {
             setTasks(updatedTasks);
         }
 
+        
+
     }
 
     function moveTaskDown(index) {

@@ -7,7 +7,7 @@ export default function Navbar() {
         
             <nav className="nav">
                 <ul>
-                <CustomLink to ="/">Home</CustomLink> |
+                <CustomLink to ="/">Home</CustomLink> 
                 <CustomLink to ="/contact">Contacts</CustomLink>
                 </ul>
             </nav>
